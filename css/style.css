@@ -1,0 +1,312 @@
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700|Open+Sans&display=swap" rel="stylesheet">
+/* font-family: 'Montserrat', sans-serif; 
+font-family: 'Open Sans', sans-serif; */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    text-decoration: none;
+   list-style: none;
+}
+img{display: block;
+max-width: 100%;}
+body{font-family: 'Montserrat', sans-serif;}
+
+.container{width: 1060px ;
+margin:auto; 
+overflow: hidden;}
+
+.heading{
+  padding: 10px 0;
+position: relative;}
+
+.heading :before{content:"";
+width: 80px;
+height: 5px;
+background: #f1602a;
+position: absolute;
+top:0;
+}
+.heading h2{}
+header{}
+p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #929dcf;
+}
+.see-more{font-size: 17px;
+color: #f47738;}
+.logo{width: 20%;
+float: left;}
+.logo a{display: block;
+text-decoration: none;}
+.logo h1{color: #28377e;
+font-size: 30px;
+font-weight: 700;}
+
+nav{width: 80%;
+float:left;}
+nav ul{display: flex;margin-left: 197px;}
+nav ul> li{list-style: none;
+    margin-right: -35px;}
+nav ul li a {
+       margin: 10px 0 0 30px;
+    display: block;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+}
+nav ul li a:hover{}
+
+
+.banner-section{    position: relative;
+    background-image: url(../image/banner_sub_bg.png),url(../image/bannerbg.png);
+    background-size: 52%,100%;
+    min-height: 700px;
+    background-repeat: no-repeat, no-repeat;
+}
+.banner-content h1 {
+        position: absolute;
+    font-weight: 700;
+    font-size: 60px;
+    font-weight: 600px
+ max-width:500px;
+    text-align: center;
+    max-width: 590px;
+    color: azure;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+}
+.arrow-down {
+    display: block;
+    color: azure;
+    color: fff;
+    font-size: 20px;
+    position: absolute;
+    bottom: 38%;
+    left: 50px;
+    transform: translatex(631px);
+}
+
+
+.who-we-are{padding: 120px 0 200px;}
+.whoweare-content h2{color: #204f87;}
+.whoweare-content{
+margin-top: 30px;
+ width: 70%;
+    float: left;
+ }
+ .whoweare-content p{margin-right: 160px;
+  margin-bottom: 30px;
+    font-size: 14px;
+color: #b0b0b1;
+
+}
+ .whoweare-img {width: 30%;
+    float:left;}
+ .whoweare-img img{}
+
+
+.whatwedo {
+    padding-top: 47px;
+    background: #f7f8f8;
+    background-image: url(../image/what-we-do-bg.png);
+    min-height: 667px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    padding-bottom: 39px;
+}
+.whatwedo .container {
+    padding: 16px;
+   }
+ 
+.what-we-do-part{width: 33.33%;
+  float: left;
+                position: relative;
+}
+.what-we-do-part img{}
+.what-we-do-part h4 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 19px;
+    left: 50%;
+    color: azure;
+   position: absolute;
+    top: 50%;
+    left: 50;
+    transform: translate(-50% ,-50%);
+    text-align: center;
+}
+
+.what-we-do-part a{ left: 50%;
+  
+    position: absolute;
+    bottom: 40px;
+    left: 50;
+    transform: translate(-50% ,-50%);
+    color: azure;
+    text-align: center;}
+.whatwedo .heading{
+           padding: 10px 0;
+           position: relative;}
+
+.whatwedo .heading :before{content:"";
+width: 80px;
+height: 5px;
+background: #f1602a;
+position: absolute;
+top:0;
+left: 50%;
+transform: translate(-50%);
+}
+.whatwedo .heading h2{
+
+    color: #28377e;
+
+  text-align: center;}
+
+
+
+  .attorney-section{background-image: url(../image/lawyer_bg.png);
+                  background-repeat: no-repeat, no-repeat;
+                  min-height: ;
+                  padding: 120px;
+                 }
+.attorneys-sectionbox{}
+
+  .attorneys-content {
+    margin-top: 116px;
+    width: 30%;
+    float: left;
+    ;
+}
+.attorneys-content .heading{margin-bottom: -22px;}
+.attorneys-content .heading h2{color: #fff;}
+
+}
+  .see-more{color: #f2622c;
+    font-size: 18px;}
+
+.attorneys {
+  
+    width: 70%;
+    float: left;
+    margin-top:;
+    overflow: hidden;
+}
+
+
+  .attorney {
+    display: block;
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+    position: relative;
+    padding: 10px;
+}
+` .attorney img{}
+  .attorney h4 {color: #fff;
+    font-size: 24px;
+    left: 50%;
+    transform: translate;
+    position: absolute;
+    top: 80%;
+    transform: translate(-80%,-50%);
+}
+
+
+  .language {
+    padding: 75px 0 120px;
+}
+.heading{}
+.heading :before {
+    padding-right: -4px;
+    content: "";
+    width: 80px;
+    height: 5px;
+    background: #f1602a;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50% ,0%);
+}
+.heading h2 {
+    text-align: center;
+    color: #28377e;
+}
+  .language-box {
+    width: 25%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+  .language-box  h3 {
+    color: #28377e;
+}
+.form-section {
+    padding: 72px;
+    background-color: #28377e;
+}
+.form-section .heading h2 {
+    text-align: center;
+    color: #ffffff;
+}
+.form-section .container{}
+.form-box {
+    width: 50%;
+    margin: auto;
+}
+.form-box form{}
+.form p{}
+.form-box form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 2px solid:#28377e;
+    background-color: #c8cab414;
+    width: 100%;
+    border-bottom: 2px solid;
+}
+   
+    
+textarea {
+     padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 2px solid:#28377e;
+    background-color: #c8cab414;
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+.form-box form input.btn {
+    display: block;
+    width: auto!important;
+   background-color: ##f1602a!important;
+    margin: auto;
+    margin-bottom: 0 !important;
+}
+section.iconsec {
+    background: #0c1234;
+}
+
+.icon-content {color: #fff;
+    width: 50%;
+    float: left;
+}
+.icon-content.p{color: #fff;}
+
+.icons{display: inline-block;
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    padding: 18px 0 0 350px;
+}
+
+.icons a{color: #fff;
+    padding: 10px;
+}
